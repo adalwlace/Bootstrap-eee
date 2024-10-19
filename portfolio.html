@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+        body {
+            background-image: url(/images/bg.jpg);
+        }
+
+        .border {
+            border: 2px solid black !important;
+            background-image: url('/images/bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+
+        .height {
+            height: 300px;
+            border-radius: 8px;
+        }
+
+        .font {
+            font-family: "Dancing Script", cursive;
+            font-weight: 600;
+        }
+
+        .image-container {
+            position: relative;
+            width: 500px;
+            height: 300px;
+        }
+
+        /* .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 414px;
+    height: 537px;
+            z-index: -1;
+        } */
+
+        .foreground-image {
+            position: absolute;
+            top: 0;
+            left: 36px;
+            /* width: 561px; */
+            height: 417px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-sm m-5 text-center border " style="padding: 20px;">
+        <h1 class="font">PORTFOLIO</h1>
+        <h4>2022 ---------------2023</h4>
+
+    </div>
+
+    <div class="row m-5 ">
+        <div class="col-sm-4 p-5 d-flex justify-content-end height">
+
+            <div class="image-container">
+                <!-- <img class="background-image" src="bg1.png" alt=""> -->
+                <img class="foreground-image" src="/images/zimg.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-sm-8 text-center p-5 d-flex justify-content-start">
+            <div class="container-sm">
+                <h1 class="font">ABOUT ME</h1>
+                <p class="mt-5">
+                    <strong>Name :</strong>Shreya Khanal
+                    <br>
+                    <strong>Age :</strong>Age : 20
+                    <br />
+                    <strong>Address :</strong>Address : Kathmandu, Nepal
+                    <br />
+                    <hr>
+                    <strong>Contact me</strong>
+
+                    <strong>Email :</strong>shreyakhanal123@gmail.com
+                    <br>
+                    <strong>Phone Number :</strong>+977 9860034069
+                    <hr>
+                    <strong>Short Bio:</strong> I am a passionate web developer with a keen eye for design. I have a
+                    good
+                    understanding of HTML, CSS, JavaScript, and other web development technologies. I love creating
+                    beautiful and functional websites that meet the needs of my clients.
+                </p>
+
+            </div>
+            <div class="col-sm-4 p-5">
+                    <h3>EDUCATION</h3>
+                    <div class="row">
+                      <div class="col-sm">
+                        <img src="/images/edu.png" alt="" height="80px">
+                        <i>Bachelor's in Engineering and  Technology</i><br>
+                      </div>
+                      <div class="col-sm">
+                        <img src="/images/idea.png" alt="" height="80px">
+                        <i>Pokhara University</i>
+                      </div>
+                      <div class="col-sm">
+                        <img src="/images/time-call.png" alt="" height="80px">
+                        <i>Contact me at: 9856123423</i>
+                      </div>
+                    
+                  </div>
+
+            </div>
+            
+        </div>
+        <hr>
+        <div class="container-sm">
+            <h2 class="font text-center">SKILLS</h2>
+            <div class="container-sm d-flex justify-content-end">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <div class="container-sm">
+            <h2 class="font text-center">INTERESTS</h2>
+            <div class="container-sm d-flex justify-content-end">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+        <div class="contianer-sm ">
+            <h2 class="font text-center">CONTACT ME</h2>
+            
+            <form action="" class="row-sm align-items">
+                Name: <input type="text" name="" id="" placeholder="name" width="20px"><br>
+                Phone: <input type="number" name="" id="" placeholder="phone"> <br>
+                Email: <input type="email" name="" id="" placeholder="@gmail.com"><br>
+                Your message: <textarea name="yy" id="" cols="30" rows="1" placeholder="type here.." ></textarea>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
